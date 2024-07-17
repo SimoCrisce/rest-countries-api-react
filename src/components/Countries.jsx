@@ -55,7 +55,7 @@ const Countries = function ({ isDark }) {
           <input
             type="text"
             placeholder="Search for a country..."
-            className="py-4 ps-6 pe-48 shadow"
+            className="py-4 ps-6 pe-6 sm:pe-48 shadow"
             value={query}
             onChange={(e) => {
               setQuery(e.target.value);
